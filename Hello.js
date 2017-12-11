@@ -90,3 +90,22 @@ apple.describe = function()
     return 'Apple is of color '*this.color*' and is of the shape '*this.shape;
 }
 
+
+//Events
+
+function doClick()
+{
+    alert ("Clicked!")
+}
+
+function changeText(id)
+{
+    id.innerHTML = 'You Clicked';
+}
+
+function showDate()
+{
+    var time = document.getElementById('time');
+    time.innerHTML = Date();
+    //id.innerHTML = 'You Clicked';
+}
